@@ -19,7 +19,7 @@
 ### Import
 
 Replace `${version}` with the current version!
-    
+
 <details>
         <summary>Gradle KTS</summary>
 
