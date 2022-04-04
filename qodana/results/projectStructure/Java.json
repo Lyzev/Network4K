@@ -1,8 +1,16 @@
 {
   "modules": [
     {
-      "name": "project",
-      "languageLevel": 17
+      "name": "Network4K",
+      "languageLevel": 11
+    },
+    {
+      "name": "Network4K.test",
+      "languageLevel": 11
+    },
+    {
+      "name": "Network4K.main",
+      "languageLevel": 11
     }
   ]
 }
