@@ -5,12 +5,6 @@ package me.lyzev.network.http
  *
  * @author Lyzev
  */
-enum class HttpMethod(private val value: String) {
-
-    GET("GET"), POST("POST"), PUT("PUT"), DELETE("DELETE");
-
-    /**
-     * Returns the value of this HTTP method.
-     */
-    fun asString(): String = value
+enum class HttpMethod {
+    GET, POST, PUT, DELETE
 }

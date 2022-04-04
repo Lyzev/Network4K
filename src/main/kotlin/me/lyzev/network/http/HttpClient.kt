@@ -18,6 +18,7 @@ object HttpClient {
     /**
      * Sends an HTTP request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun request(method: HttpMethod, url: String): HttpResponse =
         HttpRequester.createRequest(method, url, HttpParameterSet())!!.doRequest()
@@ -25,6 +26,7 @@ object HttpClient {
     /**
      * Sends an HTTP request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun request(method: HttpMethod, url: String, vararg headers: HttpHeader): HttpResponse =
         HttpRequester.createRequest(method, url, HttpParameterSet(), *headers)!!.doRequest()
@@ -32,6 +34,7 @@ object HttpClient {
     /**
      * Sends an HTTP request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun request(method: HttpMethod, url: String, httpParameters: HttpParameterSet): HttpResponse =
         HttpRequester.createRequest(method, url, httpParameters)!!.doRequest()
@@ -39,6 +42,7 @@ object HttpClient {
     /**
      * Sends an HTTP request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun request(method: HttpMethod, url: String, httpParameters: HttpParameterSet,
                 vararg headers: HttpHeader): HttpResponse =
@@ -48,12 +52,14 @@ object HttpClient {
     /**
      * Sends an HTTP-POST request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun requestPOST(url: String, data: String): HttpResponse = HttpRequester.createRequest(url, data).doRequest()
 
     /**
      * Sends an HTTP-POST request and returns the response.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun requestPOST(url: String, data: String, vararg headers: HttpHeader): HttpResponse =
         HttpRequester.createRequest(url, data, *headers).doRequest()

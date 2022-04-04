@@ -19,7 +19,7 @@ class HttpResponse(private val inStream: InputStream) {
      * @return the response as a string
      */
     @Throws(IOException::class)
-    fun asString(): String {
+    override fun toString(): String {
         val `in` = BufferedReader(InputStreamReader(inStream, HttpClient.CHARSET))
         val response = StringBuilder()
         var inputLine: String?

@@ -84,10 +84,14 @@ dependencies {
 ### Example
 
 <details>
+        <summary>HTTP/HTTPS</summary>
+
+<details>
         <summary>Kotlin</summary>
 
 ```kt
-Coming soon!
+val response = HttpClient.request(HttpMethod.GET, "https://www.google.com")
+println(response)
 ```
 </details>
 
@@ -95,8 +99,10 @@ Coming soon!
         <summary>Java</summary>
 
 ```java
-Coming soon!
+HttpResponse response = HttpClient.request(HttpMethod.GET, "https://www.google.com");
+System.out.println(response);
 ```
+</details>
 </details>
 
 ## Documentation

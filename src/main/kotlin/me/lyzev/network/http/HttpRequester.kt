@@ -1,7 +1,5 @@
 package me.lyzev.network.http
 
-import me.lyzev.whois.http.HttpMethod.GET
-import me.lyzev.whois.http.HttpMethod.POST
 import java.io.IOException
 import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
@@ -23,11 +21,12 @@ object HttpRequester {
      * @param headers The headers to send with the request.
      * @return The HTTP Request to the server.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun createRequest(method: HttpMethod, url: String, parameters: HttpParameterSet,
                       vararg headers: HttpHeader): HttpRequest? = when (method) {
-        GET -> createGET(url, parameters, *headers)
-        POST -> createPOST(url, parameters, *headers)
+        HttpMethod.GET -> createGET(url, parameters, *headers)
+        HttpMethod.POST -> createPOST(url, parameters, *headers)
         else -> null
     }
 
@@ -40,6 +39,7 @@ object HttpRequester {
      * @param headers The headers to send with the request.
      * @return The HTTP Request to the server.
      */
+    @JvmStatic
     @Throws(IOException::class)
     fun createRequest(url: String, data: String, vararg headers: HttpHeader): HttpRequest =
         createPOST(url, data, *headers)
@@ -58,7 +58,7 @@ object HttpRequester {
         val paramaters = HttpParameterSetParser(parameters).asString()
         request.append(paramaters)
         val httpConnection = getConnection(request.toString(), *headers)
-        httpConnection.requestMethod = GET.asString()
+        httpConnection.requestMethod = HttpMethod.GET.name
         return HttpRequest(httpConnection)
     }
 
@@ -97,7 +97,7 @@ object HttpRequester {
     @Throws(IOException::class)
     private fun getConnectionPOST(url: String, data: String, vararg headers: HttpHeader): HttpRequest {
         val httpConnection = getConnection(url, *headers)
-        httpConnection.requestMethod = POST.asString()
+        httpConnection.requestMethod = HttpMethod.POST.name
         httpConnection.setRequestProperty("Content-Length", data.toByteArray().contentToString())
         httpConnection.doOutput = true
         val writer = OutputStreamWriter(httpConnection.outputStream)
