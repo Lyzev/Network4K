@@ -1,0 +1,16 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/Lyzev/Network4K",
+        "revisionId": "ff6a67250887d11a3be89969e17beb84c4d9ebb3",
+        "branch": "master"
+      }
+    },
+    "deviceId": "200820300000000-bc27-c28a-f4ba-2ee0365f283a"
+  }
+}
