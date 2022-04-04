@@ -1,0 +1,44 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:me.lyzev.network.http////PointingToDeclaration/-network4-k/me.lyzev.network.http/index.html
+$dokka.location:me.lyzev.network.http/HttpClient///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/index.html
+$dokka.location:me.lyzev.network.http/HttpClient/CHARSET/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/-c-h-a-r-s-e-t.html
+$dokka.location:me.lyzev.network.http/HttpClient/USERAGENT/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/-u-s-e-r-a-g-e-n-t.html
+$dokka.location:me.lyzev.network.http/HttpClient/request/#me.lyzev.network.http.HttpMethod#kotlin.String#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request.html
+$dokka.location:me.lyzev.network.http/HttpClient/request/#me.lyzev.network.http.HttpMethod#kotlin.String#me.lyzev.network.http.HttpParameterSet#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request.html
+$dokka.location:me.lyzev.network.http/HttpClient/request/#me.lyzev.network.http.HttpMethod#kotlin.String#me.lyzev.network.http.HttpParameterSet/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request.html
+$dokka.location:me.lyzev.network.http/HttpClient/request/#me.lyzev.network.http.HttpMethod#kotlin.String/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request.html
+$dokka.location:me.lyzev.network.http/HttpClient/requestPOST/#kotlin.String#kotlin.String#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request-p-o-s-t.html
+$dokka.location:me.lyzev.network.http/HttpClient/requestPOST/#kotlin.String#kotlin.String/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-client/request-p-o-s-t.html
+$dokka.location:me.lyzev.network.http/HttpHeader///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-header/index.html
+$dokka.location:me.lyzev.network.http/HttpHeader/HttpHeader/#kotlin.String#kotlin.String/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-header/-http-header.html
+$dokka.location:me.lyzev.network.http/HttpHeader/key/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-header/key.html
+$dokka.location:me.lyzev.network.http/HttpHeader/value/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-header/value.html
+$dokka.location:me.lyzev.network.http/HttpMethod.DELETE///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-d-e-l-e-t-e/index.html
+$dokka.location:me.lyzev.network.http/HttpMethod.GET///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-g-e-t/index.html
+$dokka.location:me.lyzev.network.http/HttpMethod.POST///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-p-o-s-t/index.html
+$dokka.location:me.lyzev.network.http/HttpMethod.PUT///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-p-u-t/index.html
+$dokka.location:me.lyzev.network.http/HttpMethod///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/index.html
+$dokka.location:me.lyzev.network.http/HttpMethod/asString/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/as-string.html
+$dokka.location:me.lyzev.network.http/HttpParameter///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/index.html
+$dokka.location:me.lyzev.network.http/HttpParameter/HttpParameter/#kotlin.String#kotlin.String/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/-http-parameter.html
+$dokka.location:me.lyzev.network.http/HttpParameter/name/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/name.html
+$dokka.location:me.lyzev.network.http/HttpParameter/value/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/value.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet.Companion///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/-companion/index.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet.Companion/build/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/-companion/build.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/index.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet/HttpParameterSet/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/-http-parameter-set.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet/add/#me.lyzev.network.http.HttpParameter/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/add.html
+$dokka.location:me.lyzev.network.http/HttpParameterSet/toList/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter-set/to-list.html
+$dokka.location:me.lyzev.network.http/HttpRequest///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-request/index.html
+$dokka.location:me.lyzev.network.http/HttpRequest/HttpRequest/#java.net.HttpURLConnection/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-request/-http-request.html
+$dokka.location:me.lyzev.network.http/HttpRequest/doRequest/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-request/do-request.html
+$dokka.location:me.lyzev.network.http/HttpRequest/httpConnection/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-request/http-connection.html
+$dokka.location:me.lyzev.network.http/HttpRequester///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-requester/index.html
+$dokka.location:me.lyzev.network.http/HttpRequester/createRequest/#kotlin.String#kotlin.String#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-requester/create-request.html
+$dokka.location:me.lyzev.network.http/HttpRequester/createRequest/#me.lyzev.network.http.HttpMethod#kotlin.String#me.lyzev.network.http.HttpParameterSet#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-requester/create-request.html
+$dokka.location:me.lyzev.network.http/HttpResponse///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/index.html
+$dokka.location:me.lyzev.network.http/HttpResponse/HttpResponse/#java.io.InputStream/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/-http-response.html
+$dokka.location:me.lyzev.network.http/HttpResponse/asString/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/as-string.html
+me.lyzev.network.http
+
