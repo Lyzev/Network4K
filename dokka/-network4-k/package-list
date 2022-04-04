@@ -19,7 +19,6 @@ $dokka.location:me.lyzev.network.http/HttpMethod.GET///PointingToDeclaration/-n
 $dokka.location:me.lyzev.network.http/HttpMethod.POST///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-p-o-s-t/index.html
 $dokka.location:me.lyzev.network.http/HttpMethod.PUT///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/-p-u-t/index.html
 $dokka.location:me.lyzev.network.http/HttpMethod///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/index.html
-$dokka.location:me.lyzev.network.http/HttpMethod/asString/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-method/as-string.html
 $dokka.location:me.lyzev.network.http/HttpParameter///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/index.html
 $dokka.location:me.lyzev.network.http/HttpParameter/HttpParameter/#kotlin.String#kotlin.String/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/-http-parameter.html
 $dokka.location:me.lyzev.network.http/HttpParameter/name/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-parameter/name.html
@@ -39,6 +38,6 @@ $dokka.location:me.lyzev.network.http/HttpRequester/createRequest/#kotlin.String
 $dokka.location:me.lyzev.network.http/HttpRequester/createRequest/#me.lyzev.network.http.HttpMethod#kotlin.String#me.lyzev.network.http.HttpParameterSet#kotlin.Array[me.lyzev.network.http.HttpHeader]/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-requester/create-request.html
 $dokka.location:me.lyzev.network.http/HttpResponse///PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/index.html
 $dokka.location:me.lyzev.network.http/HttpResponse/HttpResponse/#java.io.InputStream/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/-http-response.html
-$dokka.location:me.lyzev.network.http/HttpResponse/asString/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/as-string.html
+$dokka.location:me.lyzev.network.http/HttpResponse/toString/#/PointingToDeclaration/-network4-k/me.lyzev.network.http/-http-response/to-string.html
 me.lyzev.network.http
 
