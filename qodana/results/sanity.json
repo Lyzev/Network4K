@@ -1,0 +1,97 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: HttpResponse",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "src/main/kotlin/me/lyzev/network/http/HttpRequest.kt",
+      "language": "kotlin",
+      "line": 19,
+      "offset": 21,
+      "length": 12,
+      "code": {
+        "startLine": 17,
+        "length": 12,
+        "offset": 61,
+        "surroundingCode": "     */\n    @Throws(IOException::class)\n    fun doRequest(): HttpResponse {\n        return try {\n            val inStream = httpConnection.inputStream"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Network4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-5147293693323497022"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: HttpResponse",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "src/main/kotlin/me/lyzev/network/http/HttpRequest.kt",
+      "language": "kotlin",
+      "line": 22,
+      "offset": 12,
+      "length": 12,
+      "code": {
+        "startLine": 20,
+        "length": 12,
+        "offset": 87,
+        "surroundingCode": "        return try {\n            val inStream = httpConnection.inputStream\n            HttpResponse(inStream)\n        } catch (e: FileNotFoundException) {\n            throw IOException(\"Provider return error: \" + httpConnection.responseCode)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Network4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-4979918025391992932"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: HttpClient",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "src/main/kotlin/me/lyzev/network/http/HttpRequester.kt",
+      "language": "kotlin",
+      "line": 120,
+      "offset": 56,
+      "length": 10,
+      "code": {
+        "startLine": 118,
+        "length": 10,
+        "offset": 168,
+        "surroundingCode": "        val urlRequest = URL(url)\n        val httpConnection = urlRequest.openConnection() as HttpURLConnection\n        httpConnection.addRequestProperty(\"User-Agent\", HttpClient.USERAGENT)\n        for (header in headers) httpConnection.addRequestProperty(header.key, header.value)\n        return httpConnection"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "Network4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-2973872160325963927"
+}]}
