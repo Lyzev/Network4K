@@ -22,6 +22,7 @@ buildscript {
 }
 
 apply(plugin = "com.github.johnrengelman.shadow")
+apply(plugin = "maven-publish")
 
 group = "me.lyzev"
 version = "1.1"
