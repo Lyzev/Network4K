@@ -24,7 +24,18 @@
       "contentEntries": [
         {
           "path": "file://$PROJECT_DIR$/src/test",
-          "sourceFolders": []
+          "sourceFolders": [
+            {
+              "path": "file://$PROJECT_DIR$/src/test/java",
+              "type": "TestSource",
+              "packagePrefix": ""
+            },
+            {
+              "path": "file://$PROJECT_DIR$/src/test/kotlin",
+              "type": "TestSource",
+              "packagePrefix": ""
+            }
+          ]
         }
       ],
       "orderEntries": [
@@ -41,23 +52,23 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains:annotations:13.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
           "type": "Library"
         }
       ]
@@ -67,7 +78,13 @@
       "contentEntries": [
         {
           "path": "file://$PROJECT_DIR$/src/main",
-          "sourceFolders": []
+          "sourceFolders": [
+            {
+              "path": "file://$PROJECT_DIR$/src/main/kotlin",
+              "type": "Source",
+              "packagePrefix": ""
+            }
+          ]
         }
       ],
       "orderEntries": [
@@ -80,23 +97,23 @@
           "type": "Own sources"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains:annotations:13.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
           "type": "Library"
         }
       ]

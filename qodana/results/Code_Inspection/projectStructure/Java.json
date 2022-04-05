@@ -2,15 +2,15 @@
   "modules": [
     {
       "name": "Network4K",
-      "languageLevel": 11
+      "languageLevel": 16
     },
     {
       "name": "Network4K.test",
-      "languageLevel": 11
+      "languageLevel": 16
     },
     {
       "name": "Network4K.main",
-      "languageLevel": 11
+      "languageLevel": 16
     },
     {
       "name": "project",
