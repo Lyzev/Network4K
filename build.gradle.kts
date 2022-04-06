@@ -10,22 +10,8 @@ plugins {
 
 operator fun Project.get(property: String): String = property(property) as String
 
-buildscript {
-    repositories {
-        maven {
-            url = uri("https://plugins.gradle.org/m2/")
-        }
-    }
-    dependencies {
-        classpath("gradle.plugin.com.github.johnrengelman:shadow:7.1.2")
-    }
-}
-
-apply(plugin = "com.github.johnrengelman.shadow")
-apply(plugin = "maven-publish")
-
-group = "me.lyzev"
-version = "1.2"
+group = "me.lyzev.network"
+version = "1.3"
 
 repositories {
     mavenCentral()
@@ -38,3 +24,30 @@ tasks.getByName<DokkaTask>("dokkaHtml") {
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "16"
 }
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "me.lyzev.network"
+            artifactId = "Network4K"
+            version = "1.3"
+
+            from(components["java"])
+        }
+    }
+}
+
+apply(plugin = "maven-publish")
+
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
+    }
+    dependencies {
+        classpath("gradle.plugin.com.github.johnrengelman:shadow:7.1.2")
+    }
+}
+
+apply(plugin = "com.github.johnrengelman.shadow")
