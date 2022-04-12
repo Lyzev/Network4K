@@ -115,6 +115,3 @@ You can find the qodana report [here](https://lyzev.github.io/Network4K/qodana).
 
 ## Bugs and Suggestions
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/Network4K/issues) using the templates provided. Please provide as much information as you can to best help us understand your issue and give a better chance of it being resolved.
-
-## Important
-Write here a note/something important.
