@@ -3,7 +3,7 @@
 <p align="center">A library for networking in Kotlin.</p>
 
 <div align="center">
-    <a href="https://discord.gg/invite/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
+    <a href="https://lyzev.github.io/discord/"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
     <img src="https://img.shields.io/github/last-commit/Lyzev/Network4K" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/Lyzev/Network4K" alt="GitHub commit activity"/>
@@ -13,7 +13,6 @@
 </div>
 
 ## Usage
-
 [![](https://jitpack.io/v/Lyzev/Network4K.svg?label=Release)](https://jitpack.io/#Lyzev/Network4K)
 
 ### Import
@@ -106,11 +105,9 @@ System.out.println(response);
 </details>
 
 ## Documentation
-
 You can find the documentation [here](https://lyzev.github.io/Network4K/dokka).
 
 ## Code Quality Monitoring
-
 You can find the qodana report [here](https://lyzev.github.io/Network4K/qodana).
 
 ## Bugs and Suggestions
